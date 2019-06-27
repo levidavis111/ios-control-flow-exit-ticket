@@ -26,7 +26,7 @@ if x = 15 {
 - It will print "x is not 15"
 - It will given an error because x is a var instead of a let
 - It will give an error because it has "else" and not "else if"
-- It will give an error because x = 15 uses the assignment operator instead of the comparison operator
+- It will give an error because x = 15 uses the assignment operator instead of the comparison operator (THIS ONE)
 
 ***
 ## Question 2
@@ -36,7 +36,15 @@ Test if number is divisible by 3, 5 and 7. For example 105 is divisible by 3, 5 
 ```swift
 let number = 210
 
+
 // enter code below
+
+if number % 3 == 0 && number % 5 == 0 && number % 7 == 0 {
+print("number is divisible by 3,5 and 7")
+} else {
+print("number is not divisible by 3,5 and 7")
+}
+
 ```
 
 ***
@@ -59,7 +67,7 @@ if isOverADozen {
 }
 ```
 
-- It will print "You have more than 12!
+- It will print "You have more than 12! (THIS ONE)
 - It will print "You have less than 12!
 - It will not compile because numberOfBagels should be a constant
 - It will not compile because isOverADozen should be a variable
